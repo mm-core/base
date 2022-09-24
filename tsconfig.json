@@ -1,5 +1,5 @@
 {
-	"exclude": [],
+	"exclude": [ ],
 	"include": [
 		"./src/**/*.ts"
 	],
@@ -43,6 +43,7 @@
 		"moduleResolution": "node",
 		"noEmitHelpers": false,
 		"noEmitOnError": false,
+		"strict": true,
 		"noImplicitReturns": true,
 		"noImplicitUseStrict": false,
 		"maxNodeModuleJsDepth": 0,
@@ -50,8 +51,8 @@
 		"noFallthroughCasesInSwitch": true,
 		"noResolve": false,
 		"noUnusedLocals": true,
-		"noUnusedParameters": false,
-		"paths": {},
+		"noUnusedParameters": true,
+		"paths": { },
 		"preserveConstEnums": false,
 		"pretty": true,
 		"removeComments": false,
@@ -61,8 +62,8 @@
 		"suppressExcessPropertyErrors": false,
 		"suppressImplicitAnyIndexErrors": true,
 		"traceResolution": false,
-		"typeRoots": [],
-		"types": [],
+		"typeRoots": [ ],
+		"types": [ ],
 		"watch": false
 	}
 }
